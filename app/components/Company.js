@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react'
+import { Component } from 'react'
 import { setNewName, clearName, previousName } from './../actions/index'
 
 class Company extends Component {
@@ -8,7 +8,7 @@ class Company extends Component {
         this.clearName = this.clearName.bind(this);
         this.previousName = this.previousName.bind(this);
         this.props.store.dispatch(setNewName(''))
-    };
+    }
 
     newName() {
         var newName = this.refs.companyName.value

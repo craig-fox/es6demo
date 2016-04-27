@@ -3,16 +3,17 @@
  */
 
 import { connect } from 'react-redux'
-import { setNewName } from '../actions'
 import Company from '../components/Company'
 
-const mapStateToProps = function(state){
+//Params contain Ignore so lint will overlook them till proper implementation is done
+
+const mapStateToProps = function(state){ // eslint-disable-line no-unused-vars
     return {
         //TODO: Implement function code
     }
 }
 
-const mapDispatchToProps = function(dispatch){
+const mapDispatchToProps = function(dispatch){ // eslint-disable-line no-unused-vars
     return {
         //TODO: Implement function code
     }
